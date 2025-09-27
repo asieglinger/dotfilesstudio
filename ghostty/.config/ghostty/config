@@ -1,0 +1,86 @@
+# Ghostty Configuration
+# Dark theme with grays, creams, and browns
+
+# Font Configuration
+font-family = JetBrainsMono Nerd Font
+font-size = 14
+font-thicken = true
+
+# Theme - Gruvbox Dark (browns, creams, grays)
+background = #1d2021
+foreground = #ebdbb2
+
+# Black
+palette = 0=#282828
+palette = 8=#928374
+
+# Red
+palette = 1=#cc241d
+palette = 9=#fb4934
+
+# Green
+palette = 2=#98971a
+palette = 10=#b8bb26
+
+# Yellow
+palette = 3=#d79921
+palette = 11=#fabd2f
+
+# Blue
+palette = 4=#458588
+palette = 12=#83a598
+
+# Magenta
+palette = 5=#b16286
+palette = 13=#d3869b
+
+# Cyan
+palette = 6=#689d6a
+palette = 14=#8ec07c
+
+# White
+palette = 7=#a89984
+palette = 15=#ebdbb2
+
+# Cursor
+cursor-color = #ebdbb2
+cursor-text = #1d2021
+
+# Selection
+selection-background = #3c3836
+selection-foreground = #ebdbb2
+
+# Window Configuration
+window-decoration = true
+window-padding-x = 10
+window-padding-y = 10
+background-opacity = 0.98
+
+# Scrollback
+scrollback-limit = 10000
+
+# Copy on select
+copy-on-select = true
+
+# Shell
+shell-integration = zsh
+
+# macOS specific
+macos-option-as-alt = true
+macos-titlebar-style = tabs
+
+# Performance
+unfocused-split-opacity = 0.9
+
+# Bell settings removed - not supported in Ghostty
+
+# Keybindings (macOS style)
+keybind = super+t=new_tab
+keybind = super+w=close_tab
+keybind = super+shift+]=next_tab
+keybind = super+shift+[=previous_tab
+keybind = super+n=new_window
+keybind = super+shift+n=new_window
+keybind = super+k=clear_screen
+keybind = super+d=new_split:right
+keybind = super+shift+d=new_split:down
