@@ -110,6 +110,46 @@ nvim
   - Searches: ~/personal, ~/work, ~/projects, ~/.config
   - Creates or attaches to tmux sessions based on project selection
 
+## GitHub Repository
+
+This dotfiles repository is synced to GitHub at: https://github.com/asieglinger/dotfilesstudio
+
+### Pushing Changes to Remote
+
+After making changes to your dotfiles:
+
+```bash
+# Stage your changes
+git add .
+# Or stage specific files
+git add path/to/file
+
+# Commit with a descriptive message
+git commit -m "Your commit message"
+
+# Push to GitHub
+git push
+
+# If working on a new branch
+git push -u origin branch-name
+```
+
+### Common Git Operations
+
+```bash
+# Check status of changes
+git status
+
+# View uncommitted changes
+git diff
+
+# Pull latest changes from GitHub
+git pull
+
+# View commit history
+git log --oneline
+```
+
 ## Areas Needing Implementation
 
 1. **Installation automation**: No bootstrap or setup scripts exist
